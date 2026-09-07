@@ -5,7 +5,7 @@
   gap: 95px;
 }
 
-.buttons-primary {
+.buttons-group {
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -13,12 +13,7 @@
   gap: 17px;
 }
 
-.buttons-secondary {
-  width: fit-content;
-  display: flex;
-  flex-direction: row;
-  padding: 10px 60px 9px 17px;
-  gap: 17px;
+.buttons-group-secondary {
   background: var(--Primary-900);
 }
 
