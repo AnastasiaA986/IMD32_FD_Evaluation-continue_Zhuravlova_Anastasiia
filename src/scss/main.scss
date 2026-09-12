@@ -2,7 +2,7 @@
 @import "base";
 @import "layout";
 @import "modules/example";
-@import "components/buttons";
+@import "/src/components/buttons.scss";
 
 :root {
   --Primary-0: #f5f5f5;
