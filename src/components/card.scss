@@ -1,0 +1,42 @@
+.card {
+  display: inline-flex;
+  padding: 8px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 32px;
+  box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.15);
+  //поменять bg, box shadow- всегда?
+}
+.card-image {
+  aspect-ratio: 1 / 1;
+  border-radius: 28px;
+  width: 284px;
+  height: 284px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 8px 12px 8px;
+  gap: 20px;
+}
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.informations-from-price,
+.informations-airport {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.card-ctas {
+  display: flex;
+  gap: 4px;
+}
