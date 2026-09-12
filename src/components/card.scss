@@ -5,13 +5,14 @@
   gap: 16px;
   border-radius: 32px;
   box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.15);
-  //поменять bg, box shadow- всегда?
+  background: var(--Primary-0);
+  // box shadow- всегда?
 }
 .card-image {
   aspect-ratio: 1 / 1;
   border-radius: 28px;
-  width: 284px;
-  height: 284px;
+  width: 100%;
+  max-width: 284px;
 }
 
 .card-content {
@@ -38,5 +39,51 @@
 
 .card-ctas {
   display: flex;
+  width: 100%;
   gap: 4px;
+}
+
+.heading-3 {
+  //Le titre de la carte (“San Francisco”) doit être un titre de deuxième niveau- mais dans figma h3??
+  font-family: var(--font-family);
+  color: var(--Primary-900);
+  font-size: var(--font-heading3-size);
+  font-weight: var(--font-heading3-weight);
+}
+
+.card-subtitle {
+  font-family: var(--font-family);
+  color: var(--Primary-600);
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-weight);
+}
+
+.body3-semibold {
+  font-family: var(--font-family);
+  color: var(--Primary-900);
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-semibold-weight);
+}
+
+.card-btn-favorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--Primary-500);
+  border-radius: 64px;
+  background-color: var(--Primary-0);
+  color: var(--Primary-600);
+  width: 32px;
+  height: 32px;
+
+  &:hover {
+    border: 1px solid var(--Primary-0);
+    background-color: red;
+    color: var(--Primary-0);
+    transition: ease-in-out 0.3s;
+  }
+}
+
+.button.btn-size-small.btn-style-primary {
+  flex: 1; // забирает всё доступное пространство
 }

@@ -6,15 +6,19 @@
 @import "/src/components/card.scss";
 
 :root {
-  --Primary-0: #f5f5f5;
+  --Primary-0: #ffffff;
   --Primary-100: #bbb;
   --Primary-200: #eceeef;
   --Primary-500: #b4bbc0;
+  --Primary-600: #6c6f72;
   --Primary-800: #343434;
   --Primary-900: #000;
   --font-family: "Montserrat", sans-serif;
+  --font-heading3-size: 24px;
+  --font-heading3-weight: 600;
   --font-body2-size: 16px;
   --font-body2-weight: 400;
   --font-body3-size: 14px;
-  --font-body3-weight: 400;
+  --font-body3-regular-weight: 400;
+  --font-body3-semibold-weight: 600;
 }
