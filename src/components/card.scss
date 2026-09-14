@@ -87,12 +87,12 @@ body {
   color: var(--Primary-600);
   width: 32px;
   height: 32px;
+  transition: ease-in-out 0.3s;
 
   &:hover {
     border: 1px solid var(--Primary-0);
     background-color: red;
     color: var(--Primary-0);
-    transition: ease-in-out 0.3s;
   }
 }
 
