@@ -42,7 +42,7 @@
 
 .btn-style-primary {
   background: var(--Primary-900);
-  color: var(--Primary-0);
+  color: var(--Primary-100);
 
   &:hover {
     background: var(--Primary-800);
@@ -58,7 +58,7 @@
   padding: 8px 12px;
   border-radius: 12px;
   font-size: var(--font-body3-size);
-  font-weight: var(--font-body3-weight);
+  font-weight: var(--font-body3-regular-weight);
 }
 
 .btn-style-secondary {

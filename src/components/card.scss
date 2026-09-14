@@ -1,3 +1,10 @@
+body {
+  background-color: var(--Primary-200);
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
 .card {
   display: inline-flex;
   padding: 8px;
@@ -25,14 +32,12 @@
 
 .informations {
   display: flex;
-  flex-direction: row;
   gap: 24px;
 }
 
 .informations-from-price,
 .informations-airport {
   display: flex;
-  flex-direction: row;
   gap: 8px;
   align-items: center;
 }
@@ -56,6 +61,13 @@
   color: var(--Primary-600);
   font-size: var(--font-body3-size);
   font-weight: var(--font-body3-weight);
+}
+
+.body3-regular {
+  font-family: var(--font-family);
+  color: var(--Primary-900);
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-regular-weight);
 }
 
 .body3-semibold {
