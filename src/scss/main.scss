@@ -2,8 +2,9 @@
 @import "base";
 @import "layout";
 @import "modules/example";
-@import "/src/components/buttons.scss";
-@import "/src/components/card.scss";
+@import "/src/scss/components/buttons.scss";
+@import "/src/scss/components/card.scss";
+@import "/src/scss/components/filters.scss";
 
 :root {
   --Primary-0: #ffffff;
