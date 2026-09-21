@@ -1,0 +1,157 @@
+.filters-form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  gap: 36px;
+  border-radius: 32px;
+  background: var(--Primary-900-50);
+}
+
+.heading-1 {
+  font-family: var(--font-family);
+  font-size: var(--font-heading1-size);
+  font-weight: var(--font-heading1-weight);
+  color: var(--Primary-0);
+}
+
+.trip-type {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: none;
+}
+
+.body2-medium {
+  font-family: var(--font-family);
+  font-size: var(--font-body2-size);
+  font-weight: var(--font-body2-medium-weight);
+  color: var(--Primary-0);
+}
+
+.filters-inputs-all {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 20px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.radio-custom {
+  appearance: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--Primary-0);
+  background-color: transparent;
+  border-radius: 50%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--Primary-0);
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  &:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.filters-input-from-to {
+  display: flex;
+  align-items: center;
+  background: var(--Primary-900-70);
+  border-radius: 12px;
+  gap: 32px;
+}
+
+.switch {
+  display: flex;
+  height: fit-content;
+  padding: 1px 0;
+  border-radius: 24px;
+  border: none;
+  background: var(--Primary-900);
+  color: var(--Primary-500);
+}
+
+.input-icons {
+  color: var(--Primary-0);
+}
+
+.filters-inputs {
+  display: flex;
+  gap: 20px;
+  border: none;
+}
+
+.input-simple {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 4px;
+  border-radius: 12px;
+  max-width: 150px;
+}
+
+.body3-light {
+  font-family: var(--font-family);
+  font-size: var(--font-body3-size);
+  font-weight: var(--font-body3-light-weight);
+  color: var(--Primary-0);
+}
+
+.filters-input {
+  border: none;
+  background: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.input-default {
+  display: flex;
+  min-width: 216px;
+  flex-direction: column;
+  background-color: var(--Primary-900-70);
+  padding: 8px;
+  border-radius: 12px;
+  gap: 4px;
+}
+
+.input-btn-open {
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+}
+
+.input-default-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-default-text {
+  display: flex;
+  gap: 8px;
+}
+
+select[name="passengers"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+}
