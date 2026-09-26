@@ -1,0 +1,38 @@
+.navigation {
+  display: inline-flex;
+  padding: 4px;
+  border-radius: 48px;
+  background: var(--Primary-900-50);
+}
+
+.nav-list {
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-list a {
+  display: flex;
+  text-decoration: none;
+}
+
+.body1-regular {
+  font-family: var(--font-family);
+  font-size: var(--font-body1-size);
+  font-weight: var(--font-body1-regular-weight);
+}
+
+.nav-item {
+  color: var(--Primary-0);
+  padding: 16px 32px;
+  border-radius: 32px;
+
+  &:hover {
+    background-color: var(--Primary-0-10);
+  }
+
+  &[aria-current="page"] {
+    background-color: var(--Primary-0);
+    color: var(--Primary-900);
+  }
+}

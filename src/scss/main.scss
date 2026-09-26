@@ -5,9 +5,11 @@
 @import "/src/scss/components/buttons.scss";
 @import "/src/scss/components/card.scss";
 @import "/src/scss/components/filters.scss";
+@import "/src/scss/components/navigation.scss";
 
 :root {
   --Primary-0: #ffffff;
+  --Primary-0-10: rgba(255, 255, 255, 0.1);
   --Primary-100: #f5f5f5;
   --Primary-200: #eceeef;
   --Primary-500: #b4bbc0;
@@ -21,6 +23,8 @@
   --font-heading1-weight: 500;
   --font-heading3-size: 1.5rem;
   --font-heading3-weight: 600;
+  --font-body1-size: 1.25rem;
+  --font-body1-regular-weight: 400;
   --font-body2-size: 1rem;
   --font-body2-regular-weight: 400;
   --font-body2-medium-weight: 500;
