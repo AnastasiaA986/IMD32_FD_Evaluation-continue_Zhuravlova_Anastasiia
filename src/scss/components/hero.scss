@@ -8,6 +8,7 @@ body {
   padding: 40px;
   display: flex;
   background-image: url("../images/hero-bg.png?as=webp");
+  background-color: #0b1b3a;
   background-size: cover;
   background-position: center;
 }
@@ -17,18 +18,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 0;
   flex: 1;
   border-radius: 32px;
   border: 4px solid var(--Primary-600);
 }
 
 .header {
+  display: flex;
   align-self: flex-end;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 24px;
 }
 
